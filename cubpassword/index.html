@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cub3d Runner</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            position: relative;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #teleportButton {
+            position: absolute;
+            bottom:-15px;
+            left: 20px;
+            width: 250px; /* Sabit buton genişliği */
+            height: 60px; /* Sabit buton yüksekliği */
+            padding: 10px 20px;
+            background-color: #111;
+            color: #ffa;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.0s; /* Hareket geçiş efekti */
+        }
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <p>&copy; 2024 'te ahkalama tarafından yapılmıstır.</p>
+    </footer>
+    <header>
+        <h1>Cub3D Run Maker</h1>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <h2>https://github.com/ahkalama</h2>
+        <p>Cub3d yi Github'a yüklerken bazı dosyaları eksik atmışım özür dilerim, aşağıda ki butonda hangi dosyaların eksik olduğunu ve çalıştırman için neye ihtiyacın olduğunu detaylı bir şekilde açıklayan bir link paylaştım. Umarım bu yardımcı olur. </p>
+        <p>Cub3d'nin çalışması için yapman gerekenler aşağıdaki butonda:</p>
+        <h5> sey tabi önce butonu yakalaman gerek</h5>
+    </main>
+     <a id="teleportButton" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">BANA TIKLA</a>
+    <script>
+        var button = document.getElementById('teleportButton');
+        var buttonWidth = button.offsetWidth;
+        var buttonHeight = button.offsetHeight;
+
+        button.style.setProperty('--button-width', buttonWidth + 'px');
+        button.style.setProperty('--button-height', buttonHeight + 'px');
+
+        button.addEventListener('mouseenter', function() {
+            var randomX = Math.random() * (window.innerWidth - buttonWidth);
+            var randomY = Math.random() * (window.innerHeight - buttonHeight);
+            this.style.left = randomX + 'px';
+            this.style.top = randomY + 'px';
+        });
+    </script>
+</body>
+</html>
