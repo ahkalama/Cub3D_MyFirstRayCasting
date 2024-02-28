@@ -3,4 +3,5 @@
 
 # Kod Neden Çalışmıyor? / Why does not working?
 Projeyi github'a pushlarken bazı dosyaları (yanlışlıkla) kodu değiştirip yollamışım, kodu çalıştırmak için bu dosyada verilen [ cubpassword ] dosyasının içindeki index.html 'i Google Chrome ile açmanız gerekiyor.
+-
 While pushing the project to github, I (accidentally) changed and sent some files. To run the code, you need to open index.html in the [cubpassword] volume given in this file with Google Chrome.
