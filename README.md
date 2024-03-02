@@ -8,8 +8,6 @@ While pushing the project to github, I (accidentally) changed and sent some file
 
 ![CUB3D BONUS](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/832dd09f-d142-442e-87e7-4534b3466aba)
 
-### Gameplay 👾
-
 ![CUB3D BONUS](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/94aa0fb3-1fee-4a36-ba40-d2ebe8951238)
 
 ![CUB3D BONUS kopyası](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/41974aee-ae11-4908-b3a2-9a7070afcb98)
