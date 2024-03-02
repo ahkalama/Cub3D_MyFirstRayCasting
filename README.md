@@ -1,7 +1,7 @@
 # Cub3D BONUS (125) ✅
  Cub3D is a first-person perspective maze game developed using the C and the Raycasting technique. Raycasting is a method used in computer graphics to render a 3D scene from a 2D map. In Cub3D, each pixel on the screen is calculated using rays cast from the player's viewpoint, allowing for the simulation of depth and perspective.
  
- ![Degree-Radian_Conversion-tr svg](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/9e9291ea-0ed2-4a13-af9f-a1292f3dbe70)![raycastingcamerarotate](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/adfa7094-9ef4-42f7-a1f4-dcf89f58055f)
+ ![raycastingcamerarotate](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/adfa7094-9ef4-42f7-a1f4-dcf89f58055f)
 
 
 
