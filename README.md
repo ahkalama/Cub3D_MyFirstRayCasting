@@ -4,6 +4,7 @@
 ![raycastgrid](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/5c329628-b1ab-4b71-98b3-cf2930374188)
 ![raycastmiss](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/ab5efa17-49b3-4e1b-ace9-fbc2af959c22)
 ![raycastmiss2](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/8ac99c11-25af-45e8-92eb-be71bb92757e)
+![raycasthit](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/563e11e1-ea42-415c-9f0f-338c0d1d2120)
 
 # Kod Neden Çalışmıyor? / Why does not working? ❌
 Projeyi github'a pushlarken bazı dosyaları (yanlışlıkla) kodu değiştirip yollamışım, kodu çalıştırmak için bu dosyada verilen [ cubpassword ] dosyasının içindeki index.html 'i Google Chrome ile açmanız gerekiyor.
