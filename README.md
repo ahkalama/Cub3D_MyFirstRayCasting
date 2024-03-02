@@ -5,3 +5,9 @@
 Projeyi github'a pushlarken bazı dosyaları (yanlışlıkla) kodu değiştirip yollamışım, kodu çalıştırmak için bu dosyada verilen [ cubpassword ] dosyasının içindeki index.html 'i Google Chrome ile açmanız gerekiyor.
 
 While pushing the project to github, I (accidentally) changed and sent some files. To run the code, you need to open index.html in the [cubpassword] volume given in this file with Google Chrome.
+
+![CUB3D BONUS](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/832dd09f-d142-442e-87e7-4534b3466aba)
+# Gameplay 👾
+
+https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/5fa30d09-6658-4852-aa69-60d7404cfe34
+
