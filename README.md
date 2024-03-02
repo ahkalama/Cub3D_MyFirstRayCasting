@@ -1,10 +1,9 @@
 # Cub3D BONUS (125) ✅
  Cub3D is a first-person perspective maze game developed using the C and the Raycasting technique. Raycasting is a method used in computer graphics to render a 3D scene from a 2D map. In Cub3D, each pixel on the screen is calculated using rays cast from the player's viewpoint, allowing for the simulation of depth and perspective. You can find more information here https://lodev.org/cgtutor/raycasting.html
 
- ![raycastgrid](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/5c329628-b1ab-4b71-98b3-cf2930374188)
- ![raycastingcamerarotate](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/adfa7094-9ef4-42f7-a1f4-dcf89f58055f)
-![raycastdelta](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/d6b8505f-a8f2-4952-9019-48bbd71848cf)
-
+![raycastgrid](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/5c329628-b1ab-4b71-98b3-cf2930374188)
+![raycastmiss](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/ab5efa17-49b3-4e1b-ace9-fbc2af959c22)
+![raycastmiss2](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/8ac99c11-25af-45e8-92eb-be71bb92757e)
 
 # Kod Neden Çalışmıyor? / Why does not working? ❌
 Projeyi github'a pushlarken bazı dosyaları (yanlışlıkla) kodu değiştirip yollamışım, kodu çalıştırmak için bu dosyada verilen [ cubpassword ] dosyasının içindeki index.html 'i Google Chrome ile açmanız gerekiyor.
