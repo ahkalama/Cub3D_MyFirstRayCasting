@@ -21,4 +21,4 @@ While pushing the project to github, I (accidentally) changed and sent some file
 https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/5fa30d09-6658-4852-aa69-60d7404cfe34
 
 
-
+dasdas
