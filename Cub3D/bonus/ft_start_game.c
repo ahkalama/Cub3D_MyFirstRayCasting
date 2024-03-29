@@ -79,7 +79,7 @@ int	ft_start_game(t_data *data)
 	mlx_mouse_hide();
 	mlx_hook(data->mlx.win, ON_KEYDOWN, NO_MASK, ft_key_press, data);
 	mlx_hook(data->mlx.win, ON_KEYUP, NO_MASK, ft_key_release, data);
-	mlx_hook(data->mlx.win, ON_MOUSEMOVE, NO_MASK, ft_mouse_rotation, data);
+	mlx_hook(data->mlx.win, ON_MOUSEMOVE, NO_MASK, ft_mouse_rotation, data); // Mouse Controller
 	mlx_hook(data->mlx.win, ON_EXIT, NO_MASK, ft_free_and_exit, data);
 	mlx_loop_hook(data->mlx.ptr, myfunc, data);
 	mlx_loop(data->mlx.ptr);
