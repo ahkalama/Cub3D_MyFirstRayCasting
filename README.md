@@ -7,7 +7,7 @@
 ![raycasthit](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/563e11e1-ea42-415c-9f0f-338c0d1d2120)
 
 # Kod Neden Çalışmıyor? / Why does not working? ❌
-( Dosyayı Yıldızlayan Kişiler'e direkt orjinal kod atılır )
+( Dosyayı Yıldızlayan(⭐) Kişiler'e direkt orjinal kod atılır )
 Projeyi github'a pushlarken bazı dosyaları (yanlışlıkla) kodu değiştirip yollamışım, kodu çalıştırmak için bu dosyada verilen [ cubpassword ] dosyasının içindeki index.html 'i Google Chrome ile açmanız gerekiyor.
 
 While pushing the project to github, I (accidentally) changed and sent some files. To run the code, you need to open index.html in the [cubpassword] volume given in this file with Google Chrome.
