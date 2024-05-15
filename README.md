@@ -1,4 +1,4 @@
-# Cub3D BONUS (125) ⭐
+# Cub3D ⭐
 
 Cub3D is a first-person perspective game developed using the C and the Raycasting technique. Raycasting is a method used in computer graphics to render a 3D scene from a 2D map. In Cub3D, each pixel on the screen is calculated using rays cast from the player's viewpoint, allowing for the simulation of depth and perspective. You can find more information here: https://lodev.org/cgtutor/raycasting.html
 
@@ -12,5 +12,6 @@ Cub3D is a first-person perspective game developed using the C and the Raycastin
 
 ![CUB3D BONUS kopyası](https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/41974aee-ae11-4908-b3a2-9a7070afcb98)
 
-# _🎃 Cub3D Bonus project Gameplay video with MacOS 🎃_
+Cub3D project gameplay
+---------------------
 https://github.com/ahkalama/Cub3D_Bonus_MyRayCasting/assets/116187665/5fa30d09-6658-4852-aa69-60d7404cfe34
