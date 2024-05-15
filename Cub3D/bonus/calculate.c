@@ -12,7 +12,7 @@
 
 #include "../includes_bonus/cub3d.h"
 
-int	ft_distance(t_coordinates p1, t_coordinates p2)
+double	ft_distance(t_coordinates p1, t_coordinates p2)
 {
 	t_coordinates	distance;
 
@@ -21,19 +21,19 @@ int	ft_distance(t_coordinates p1, t_coordinates p2)
 	return (sqrtf(distance.x + distance.y));
 }
 
-double	ft_create_color(int transpancy, int r, int g, int b)
+int	ft_create_color(int transpancy, int r, int g, int b)
 {
 	return (transpancy << 24 | r << 16 | g << 8 | b);
 }
 
-double	ft_max(double x, double y)
+int	ft_max(double x, double y)
 {
 	if (x > y)
 		return ((int)x);
 	return ((int)y);
 }
 
-int	ft_update_radian(double radian, double inc)
+double	ft_update_radian(double radian, double inc)
 {
 	radian += inc;
 	if (radian > 2 * M_PI)

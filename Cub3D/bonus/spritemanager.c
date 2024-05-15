@@ -27,6 +27,7 @@ void	add_image(t_data *data, char *name, char *location)
 		}
 		tmp = tmp->next;
 	}
+	sprite = new_sprite(data, name, location);
 	add_list_back(&data->smanager.sprites, sprite);
 }
 

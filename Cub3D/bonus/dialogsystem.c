@@ -65,6 +65,8 @@ void	dialog_put(t_data *data, t_sprites *sprite, t_dialog dialog)
 			sprite->image, sprite->x, sprite->y);
 	}
 	join(&data->controller, &dialog);
+	mlx_string_put(data->mlx.ptr, data->mlx.win, STRNWDT, STRNHDT,
+		dialog.color, data->controller.mainstr);
 }
 
 int	get_dialog(t_data *data)

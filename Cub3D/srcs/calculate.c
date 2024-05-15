@@ -36,7 +36,7 @@ double	ft_update_radian(double radian, double inc)
 	return (radian);
 }
 
-int	ft_deg_to_rad(double degree)
+double	ft_deg_to_rad(double degree)
 {
 	return ((degree * M_PI) / 180.0);
 }

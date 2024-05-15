@@ -12,6 +12,25 @@
 
 #include "../includes_bonus/cub3d.h"
 
+static int	ft_get_pixel_texture(t_img image, t_render *render)
+{
+	int		tx;
+	int		ty;
+	double	ty_step;
+	double	ty_off;
+
+	if (render->direction == 'h')
+		tx = image.width * (render->wall_hit.x - (int)(render->wall_hit.x));
+	else
+		tx = image.width * (render->wall_hit.y - (int)(render->wall_hit.y));
+	ty_step = image.height / render->wall_height;
+	ty_off = 0;
+	if (render->wall_height > HEIGHT)
+		ty_off = (render->wall_height - HEIGHT) / 2;
+	ty = (ty_off * ty_step) + ((render->y_tex) * ty_step);
+	return (image.get_addr[(abs(ty) * image.width) + abs(tx)]);
+}
+
 static	void	ft_draw_pixel(t_data *data, int x, int y, t_render *render)
 {
 	t_img	*img;
@@ -32,7 +51,7 @@ static	void	ft_draw_pixel(t_data *data, int x, int y, t_render *render)
 		img = &data->map.west;
 	else
 		img = &data->map.east;
-	color = 0;
+	color = ft_get_pixel_texture(*img, render);
 	if (color != ft_create_color(255, 0, 0, 0))
 		data->mlx.img.get_addr[y * WIDTH + x] = color;
 	if (ft_strchr(WALLS, data->map.map[(int)(render->wall_hit.y)]

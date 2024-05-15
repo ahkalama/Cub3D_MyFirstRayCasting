@@ -12,8 +12,31 @@
 
 #include "../includes/cub3d.h"
 
+static void	ft_draw_floor_and_ceiling(t_data *data)
+{
+	int	y;
+	int	x;
+
+	y = 0;
+	x = 0;
+	while (y < HEIGHT)
+	{
+		x = 0;
+		while (x < WIDTH)
+		{
+			if (y < HEIGHT / 2)
+				data->mlx.img.get_addr[WIDTH * y + x] = data->map.ceiling_c;
+			else
+				data->mlx.img.get_addr[WIDTH * y + x] = data->map.floor_c;
+			x++;
+		}
+		y++;
+	}
+}
+
 void	ft_render(t_data *data, double degree, t_render	*r, t_list	*ll_render)
 {
+	ft_draw_floor_and_ceiling(data);
 	while (degree <= FOV)
 	{
 		while (!ll_render || (ll_render && data->map.map
